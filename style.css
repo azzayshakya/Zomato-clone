@@ -7,6 +7,8 @@
 }
 body{
     text-decoration: none;
+    height: 2000px;
+   
 }
 .head{
     border: 2px red solid;
@@ -18,6 +20,7 @@ body{
 .head img{
     width: 100%;
     height: 350px;
+ 
 }
 header{
     display: flex;
@@ -25,7 +28,9 @@ header{
     align-items: center;
     color: white;
     font-size: 16px;
-    padding: 20px 0px 20px 20px;
+   
+    padding: 25px 0px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
 }
@@ -34,7 +39,7 @@ header{
 }
 li{
     display: inline-block;
-    padding: 0px 35px;
+    padding: 0px 20px;
   
     cursor: pointer;
 
@@ -55,73 +60,72 @@ li{
     color: white;
     font-size: 38px;
     margin-top: 30px;
-
+    font-weight: lighter;
+    
 }
+
+
 
 .search-place{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: white;
     height: 50px;
     width: 750px;
     border-radius: 10px;
-    /* border: 3px red solid; */
+    padding: 5px 0px;
 
-}
-/* .mid #locationicon{
-     color: red;
-     
-     border: 2px red solid;
-     height: 40px;
-     width: 40px;
-     margin: auto;
-     margin-left: 5px;
-}
-.mid #searchccon{
-    height: 40px;
-    width: 40px;
-    border: 2px red solid; 
-} 
-*/
-
-.mid p{
-    color: black;
-    width: 40%;
-    text-align: center;
-    /* border: 2px red solid; */
-
-}
-
-.mid .search{
-    width: 60%;
-    /* border: 2px red solid; */
-    margin-top: -7px;
-    border: none;
-}
-
-.mid input {
-    width: 96%;
-    height: 80%;
-    border: none;
-}
-
-/* #locationicon{
-    color: red;
     
-     
-     border: 2px blue solid;
-     height: 40px;
-     width: 40px;
-     
 
 }
-#searchicon{
-    border: 2px blue solid;
-    height: 40px;
-    width: 40px;
-    color: red;
 
 
-} */
+.search-place .location{
+    
+    height: 25px;
+    width: 6%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+.search-place .search {
+    height: 25px;
+    width: 6%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+} 
+.mid input {
+    width: 50%;
+    height: 70%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mid p{
+    color: grey;
+    width: 30%;
+    /* text-align: center; */
+    border-right: 1px solid gray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+
+
+
+
+
+
+/*  */
+
+
 
 .services{
     width: 100%;
@@ -137,10 +141,44 @@ li{
     height: 240px;
     width: 30%;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 
 
 }
+.services .image{
+    border: 2px blue solid;
+    width: 100%;
+    height: 100%;
+}
+.services .about{
+    border: 2px blue solid;
+    width: 100%;
+    height: 50%;
+}
 
+
+.ab{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+.bc{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.cd{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
 .collections{
     margin-top: 100px;
 }
