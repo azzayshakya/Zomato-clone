@@ -7,7 +7,7 @@
 }
 body{
     text-decoration: none;
-    height: 2000px;
+    height: 3000px;
    
 }
 .head{
@@ -333,7 +333,7 @@ li{
 
 .popular {
     /* border: 2px red solid; */
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
@@ -342,7 +342,7 @@ li{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
     font-size: 30px;
-    color: grey;
+    color: rgb(84, 83, 83);
     
 
 
@@ -355,21 +355,21 @@ li{
 
 
 .popular .boxes{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 30px;
+    
 
 
 }
 .popular .boxes div{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 80px;
     width: 320px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px 10px;
@@ -388,9 +388,84 @@ li{
     height: 10px;
     width: 10px;
     float: right;
-    m
+    
     
 }
+
+/*  */
+
+
+
+.download{
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 255, 243);
+
+}
+
+.download div{
+    /* border: 2px red solid; */
     
+}
+.download .left img{
+    height: 400px ;
+    width: 350px;
+}
 
+.download h1{
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+.download h3{
+     font-weight: lighter;
+     font-size: 20px;
+     margin: 20px 0px;
+}
+
+.download input{
+       height: 45px;
+       width: 300px;
+       border-radius: 10px;
+       border: 1px solid rgb(202, 202, 202);
+       outline: none;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       padding-left: 5px;
+       font-size: 15px;
+}
+
+.download button{
+    background-color: rgb(253, 81, 81);
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.download p{
+    color: rgb(140, 139, 139);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.down_img img{
+    height: 50px;
+    width: 100px;
+    
+}
+.img-1{
+    
+   
+    margin-right: 40px;
+}
