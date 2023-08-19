@@ -371,7 +371,25 @@ li{
     width: 320px;
     border: 2px solid gray;
     border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 10px;
+    letter-spacing: 1px; 
 
+}
+.popular .boxes span{
+    
+    color: rgb(130, 130, 130);
+
+    
+}
+
+
+.boxes  img{
+    height: 10px;
+    width: 10px;
+    float: right;
+    m
+    
 }
     
 
