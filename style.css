@@ -7,7 +7,7 @@
 }
 body{
     text-decoration: none;
-    height: 5000px;
+    height: 3460px;
    
 }
 .head{
@@ -482,8 +482,8 @@ li{
 
 .explore-near-me{
 
-    border: 2px red solid;
-    height: 700px;
+    /* border: 2px red solid; */
+    height: 450px;
     margin-left: 40px;
     
 }
@@ -497,7 +497,7 @@ li{
 }
 .explore-near-me div{
     
-    height: 400px;
+    height: 340px;
     width: 100px;
     width: 100%;
     
@@ -506,6 +506,151 @@ li{
 
 .explore-near-me h1{
     font-weight: lighter;
+    margin-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  
+.explore-near-me .boxes div{
+    border: 1px gray solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+
+.footer{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 95%;
+    margin-left: 35px;
+    border-bottom: 1px grey solid;
+
+
+}
+
+.footer .first {
+    margin: 20px 0px;
+    font-weight: bold;
+
+
+}
+
+.footer .first-column{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+
+}
+
+.footer .first-column div{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 160px;
+
+}
+
+
+
+
+.footer .second-column{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+.footer .second-column div{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 160px;
+
+}
+
+
+.footer .theird-column{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+
+
+}
+
+.footer .theird-column div{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 160px;
+
+}
+
+
+.footer .fourth-column{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.footer .fourth-column div{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 160px;
+
+}
+
+.footer .fifth-column{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+
+
+} 
+
+ .footer .fifth-column div{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 160px;
+
+
+} 
+
+.copyright{
+    margin: 20px 35px ;
+    color: grey;
+}
