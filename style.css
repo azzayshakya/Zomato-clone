@@ -257,12 +257,15 @@ li{
 .collection-image{
     width: 97.5%;
     height: 450px;
-    
     display: flex;
+   
+
     /* margin-top: 20px; */
     justify-content: space-evenly;
     margin-left: 30px;
     margin-right: 30px;
+  
+    
     /* border: 2px red solid; */
 
 
