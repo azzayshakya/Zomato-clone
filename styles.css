@@ -209,6 +209,9 @@ body{
 
 .we_offer__cards_content{
 	padding: 5px;
+
+
+
 }
 
 .we_offer__cards_content h2{
@@ -219,9 +222,10 @@ body{
 .we_offer__cards_content p{
 	font-size: 12.5px;
 	font-weight: 400;	
+	color: #828181;
 }
 
-/* Collections section */
+/* Collections */
 
 .container_collections{
 	margin: 3rem auto;
@@ -230,6 +234,7 @@ body{
 
 .container_collections h1{
 	font-weight: 600;
+
 }
 
 .sub_heading__container{
@@ -239,6 +244,8 @@ body{
 	align-items: center;
 	gap: 30px;
 	flex-wrap: wrap;	
+	color: #828181;
+
 }
 
 .sub_heading__container span:nth-child(2){
